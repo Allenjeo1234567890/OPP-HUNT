@@ -265,7 +265,7 @@ def start_scheduler():
         schedule.run_pending()
         time.sleep(60)
 
-threading.Thread(target=start_scheduler, daemon=True).start()
+#threading.Thread(target=start_scheduler, daemon=True).start()
 
 # ==========================================================================
 # 3. RATE LIMITING DECORATOR
